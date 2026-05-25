@@ -50,4 +50,13 @@
 .footer__sep {
   color: var(--border-color);
 }
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    padding: 12px 16px;
+  }
+}
 </style>

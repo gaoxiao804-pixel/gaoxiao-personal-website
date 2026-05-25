@@ -60,3 +60,17 @@ pre code {
 .section-spacer {
   margin-bottom: 28px;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --content-width: 100%;
+  }
+
+  html, body {
+    font-size: 13px;
+  }
+
+  .section-spacer {
+    margin-bottom: 22px;
+  }
+}

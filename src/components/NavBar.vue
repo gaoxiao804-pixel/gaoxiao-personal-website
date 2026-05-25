@@ -95,4 +95,24 @@ function isActive(to: string): boolean {
   color: #666;
   font-size: 10px;
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+
+  .navbar__links {
+    gap: 16px;
+  }
+
+  .navbar__link {
+    font-size: 11px;
+  }
+
+  .navbar__file {
+    display: none;
+  }
+}
 </style>
